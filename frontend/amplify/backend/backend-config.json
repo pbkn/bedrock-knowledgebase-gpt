@@ -1,0 +1,68 @@
+{
+  "auth": {
+    "frontend": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_frontend_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontend"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontend_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontend"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontend_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontend"
+        }
+      ]
+    },
+    "AMPLIFY_auth_frontend_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "frontend"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  }
+}

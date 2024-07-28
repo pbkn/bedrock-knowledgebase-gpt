@@ -1,0 +1,16 @@
+{
+  "authSelections": "userPoolOnly",
+  "resourceName": "frontend",
+  "serviceType": "imported",
+  "region": "us-east-1",
+  "usernameAttributes": [
+    "email"
+  ],
+  "requiredAttributes": [
+    "email"
+  ],
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [],
+  "mfaConfiguration": "OFF",
+  "mfaTypes": []
+}
